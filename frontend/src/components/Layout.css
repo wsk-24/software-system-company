@@ -1,0 +1,32 @@
+/* ===== LAYOUT ===== */
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background: #F9FAFB;
+}
+
+.layout__main {
+  flex: 1;
+  margin-left: 260px;
+  min-height: 100vh;
+  transition: margin-left 0.35s cubic-bezier(0.4,0,0.2,1);
+}
+
+.layout__main.sidebar-collapsed {
+  margin-left: 72px;
+}
+
+.layout__content {
+  padding: 88px 28px 40px;
+  max-width: 1400px;
+}
+
+@media (max-width: 768px) {
+  .layout__main {
+    margin-left: 0 !important;
+  }
+
+  .layout__content {
+    padding: 80px 16px 32px;
+  }
+}
