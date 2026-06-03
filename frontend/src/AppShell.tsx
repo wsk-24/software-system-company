@@ -17,11 +17,8 @@ import ClientProjectsPage from "./pages/ClientProjectsPage";
 import TeamManagementPage from "./pages/TeamManagementPage";
 import MessagesPage from "./pages/MessagesPage";
 import AnalyticsPage from "./pages/AnalyticsPage";
-import {
-  CalendarPage,
-  FilesPage,
-  SettingsPage
-} from "./pages/PlaceholderPages";
+import CalendarPage from "./pages/CalendarPage";
+import { FilesPage, SettingsPage } from "./pages/PlaceholderPages";
 import { navItems } from "./data/mockData";
 
 const AppShell: React.FC = () => {
